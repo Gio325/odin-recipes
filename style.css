@@ -1,0 +1,30 @@
+.centered{
+    text-align: center;
+}
+#homebody{
+    background-color: lightblue;
+}
+#pestobody{
+    background-color: lightgreen;
+}
+#pizzabody{
+    background-color: #FFFFF0;
+}
+#piadabody{
+    background-color: #ff7f7f;
+}
+.bigboi{
+    font-size: 50px;
+}
+h3{
+    font-size: 35px;
+}
+ul,ol{
+    font-size: larger;
+    display: inline-block;
+    text-align: left;
+}
+div{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
