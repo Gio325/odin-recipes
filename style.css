@@ -1,30 +1,120 @@
-.centered{
-    text-align: center;
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #homebody{
     background-color: lightblue;
+    text-align: center;
 }
 #pestobody{
     background-color: lightgreen;
 }
 #pizzabody{
-    background-color: #FFFFF0;
+    background-color: #E5DFDA;
+    text-align: center;
 }
 #piadabody{
     background-color: #ff7f7f;
 }
-.bigboi{
-    font-size: 50px;
+#catto{
+    padding: 20px;
 }
-h3{
-    font-size: 35px;
+ button{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+} 
+button.b1{
+background-color: #009246;
+cursor: pointer;
 }
-ul,ol{
-    font-size: larger;
+button.b2{
+background-color:#FFFFF0 ;
+cursor: pointer;
+}
+button.b3{
+background-color:#CE2B37 ;
+cursor: pointer;
+}
+#container{
     display: inline-block;
-    text-align: left;
+    background-color: lightblue;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 5px dotted blue;
 }
-div{
+.recipe-container{
+    width: 800px;
+    margin: auto;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subseccontainer{
+    text-align: left;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 10px groove;
+    padding: 10px;
+}
+#pestobody .subseccontainer{
+    border-color: green;
+}
+#pizzabody .subseccontainer{
+    border-color: #ddd0c9;
+}
+#piadabody .subseccontainer{
+    border-color: #FF5733;
+}
+.subseccontainer .subsub{
+    text-align: left;
+    margin: 10px;
+}
+span{
+    padding: 5px;
+    border: 2px outset black;
+    border-radius: 9px;
+    font-weight: bolder;
+}
+#pizzabody span{
+    background-color: #E5DFDA;
+}
+#pestobody span{
+    background-color: lightgreen;
+}
+#piadabody span{
+    background-color: #ff7f7f;
+}
+.conclusion{
+    background-color: white;
+    height: auto;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border: 5px inset yellow;
+}
+#pizzabody p{
+    margin: 10px;
+    display: inline;
+}
+.homebutton{
+    background-color: lightblue;
+    border: 3px solid black;
+    color: black;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.easteregg{
+    text-align: left;
+    font-size: smaller;
+    cursor: default;
 }
