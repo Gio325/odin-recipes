@@ -15,9 +15,6 @@
 #piadabody{
     background-color: #ff7f7f;
 }
-#catto{
-    padding: 20px;
-}
  button{
     display: block;
     margin: 5px;
@@ -42,7 +39,7 @@ cursor: pointer;
     padding: 10px;
     margin: auto;
     margin-bottom: 30px;
-    border: 5px dotted blue;
+    border: 5px double blue;
 }
 .recipe-container{
     width: 800px;
