@@ -1,5 +1,6 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
 }
 #homebody{
     background-color: lightblue;
@@ -15,15 +16,23 @@
 #piadabody{
     background-color: #ff7f7f;
 }
+#homebody h1{
+    font-size: 50px;
+
+    margin: auto;
+}
  button{
     display: block;
-    margin: 5px;
+    margin: auto;
+    margin-bottom: 5px;
     padding: 5px;
-    font-weight: bold;
+    font-size: 20px;
+    
 } 
 button.b1{
 background-color: #009246;
 cursor: pointer;
+text-decoration: dashed;
 }
 button.b2{
 background-color:#FFFFF0 ;
@@ -37,7 +46,7 @@ cursor: pointer;
     display: inline-block;
     background-color: lightblue;
     padding: 10px;
-    margin: auto;
+    margin: 5px;
     margin-bottom: 30px;
     border: 5px double blue;
 }
